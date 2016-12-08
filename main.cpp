@@ -13,7 +13,6 @@
 #endif
 #pragma comment(lib,"opengl32.lib")
 #pragma comment(lib,"glu32.lib")
-
 #include "SFML/Graphics.hpp"
 #include "SFML/OpenGL.hpp"
 #include <iostream>
@@ -44,10 +43,10 @@ int main()
     //end vertex is used as start vertex of the next one
     sf::Vector2f greenRect[size];
     greenRect[0]=sf::Vector2f(0,0);//start at origin
-    greenRect[1]=sf::Vector2f(200,0);//go out 200
-    greenRect[2]=sf::Vector2f(200,-50);//drop 50
+    greenRect[1]=sf::Vector2f(200,0);
+    greenRect[2]=sf::Vector2f(200,-50);
     
-    greenRect[3]=sf::Vector2f(0,-50);//go in to axis
+    greenRect[3]=sf::Vector2f(0,-50);
     greenRect[4]=greenRect[0];
     
     
@@ -56,10 +55,10 @@ int main()
     
     //end vertex is used as start vertex of the next one
     sf::Vector2f blueRect[size];
-    blueRect[0]=sf::Vector2f(0,0);//start at origin
-    blueRect[1]=sf::Vector2f(200,0);//go out 200
-    blueRect[2]=sf::Vector2f(200,-50);//drop 50
-    blueRect[3]=sf::Vector2f(0,-50);//go in to axis
+    blueRect[0]=sf::Vector2f(0,0);
+    blueRect[1]=sf::Vector2f(200,0);
+    blueRect[2]=sf::Vector2f(200,-50);
+    blueRect[3]=sf::Vector2f(0,-50);
     blueRect[4]=blueRect[0];
     
     
@@ -71,10 +70,10 @@ int main()
      RightArm[0]=sf::Vector2f(0,0);
      
      RightArm[1]=sf::Vector2f(0,150);
-     RightArm[2]=sf::Vector2f(150,150);//was 150,150
-     RightArm[3]=sf::Vector2f(100,100);//was 150,100
-     RightArm[4]=sf::Vector2f(50,100);//was 50,100
-     RightArm[5]=sf::Vector2f(50,0);//was 50,0
+     RightArm[2]=sf::Vector2f(150,150);
+     RightArm[3]=sf::Vector2f(100,100);
+     RightArm[4]=sf::Vector2f(50,100);
+     RightArm[5]=sf::Vector2f(50,0);
      
      RightArm[6]=blueRect[0];
     
@@ -86,10 +85,10 @@ int main()
     leftArm[0]=sf::Vector2f(0,0);
     
     leftArm[1]=sf::Vector2f(0,-150);
-    leftArm[2]=sf::Vector2f(150,-150);//was 150,150
-    leftArm[3]=sf::Vector2f(100,-100);//was 150,100
-    leftArm[4]=sf::Vector2f(50,-100);//was 50,100
-    leftArm[5]=sf::Vector2f(50,0);//was 50,0
+    leftArm[2]=sf::Vector2f(150,-150);
+    leftArm[3]=sf::Vector2f(100,-100);
+    leftArm[4]=sf::Vector2f(50,-100);
+    leftArm[5]=sf::Vector2f(50,0);
     
     leftArm[6]=blueRect[0];
     
